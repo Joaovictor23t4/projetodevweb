@@ -1,0 +1,34 @@
+  @charset "utf-8";  
+  body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("../Imagens/Fundo\ Vermelho.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* e agora a regra de ouro que fará a imagem ocupar todo o viewport */
+    background-size: 100% 100%
+  }
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    width: 80px;
+    background-color: rgb(250, 121, 0);
+    border-radius: 10px;
+    padding: 3px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  
+}
+
+q {
+  color:orange ;
+}
+
+ul {
+  color:orange ;
+}
+
+table, th, td{
+  border-style: solid;
+  border-color: black;
+}
